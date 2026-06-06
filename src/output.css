@@ -279,6 +279,15 @@
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
   }
+  .bottom-12 {
+    bottom: calc(var(--spacing) * 12);
+  }
+  .bottom-12\.5 {
+    bottom: calc(var(--spacing) * 12.5);
+  }
+  .bottom-13 {
+    bottom: calc(var(--spacing) * 13);
+  }
   .bottom-15 {
     bottom: calc(var(--spacing) * 15);
   }
