@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@source "/js/app.js";
+
+@font-face {
+  font-family: "Vazir";
+  src: url(../fonts/Vazirmatn-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url(../fonts/Vazirmatn-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url(../Fonts/Vazirmatn-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Karbala";
+  src: url(../Fonts/Karbala.ttf);
+  font-weight: 500;
+}
+
+@theme {
+  --font-Vazir: "Vazir", sans-serif;
+  --font-Karbala: "Karbala", sans-serif;
+  --font-Dima: "Dima", sans-serif;
+  --breakpoint-3xl: 1800px;
+  --breakpoint-sm2: 200px;
+  --breakpoint-md2: 905px;
+  --breakpoint-lg2: 1145px;
+  --color-blood-hover: #880808;
+}
